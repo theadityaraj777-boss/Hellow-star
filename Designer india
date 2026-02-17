@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoConnect</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px;">
+
+    <header style="text-align: center; background-color: #f4f4f4; padding: 20px;">
+        <h1>📷 PhotoConnect</h1>
+        <p>Share your photos, connect with friends, and interact!</p>
+    </header>
+
+    <section style="margin-top: 20px;">
+        <h2>👤 Create Your Profile</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="phone">Phone Number (Kept Private):</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+
+            <button type="submit">Save Profile</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>📤 Upload a Photo</h2>
+        <form>
+            <input type="file" id="photo-upload" accept="image/*" required>
+            <button type="submit">Upload Picture</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>🌟 Photo Feed</h2>
+        
+        <div style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+            <h3>Posted by: Jane Doe</h3>
+            <img src="https://via.placeholder.com/400x300?text=User+Photo+Here" alt="User upload" style="max-width: 100%;">
+            <br><br>
+            
+            <button>❤️ Like (0)</button>
+            <button>💬 Comment</button>
+            
+            <a href="https://via.placeholder.com/400x300?text=User+Photo+Here" download="PhotoConnect_Image.jpg">
+                <button>⬇️ Download Picture</button>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+</html>
